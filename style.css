@@ -1,0 +1,58 @@
+.petrol input{
+    background-color: blue;
+    color: white;
+    border-color: black;
+   
+}.diesl input{
+    background-color: red;
+    color: white;
+    border-color: black;
+}.petrol input :placeholder-shown{
+    color: white;
+    background-color: aliceblue;
+}#submit{
+    background-color: rgb(19, 16, 185);
+    color: rgb(238, 28, 28);
+
+}#firstreeding{
+    margin-left: 20px;
+}#firstreeding input{
+    margin-top: 10px;
+}#secondreeding{
+    margin-left: 20px;
+
+  
+}#secondreeding input{
+    margin-top: 10px;
+}#submit{
+  
+    width: 70px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 70px;
+}a{
+    margin-left: 70%;
+    color: rgb(0, 255, 162);
+}body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    background-image: url("img/Pumb/bb.jpg");
+   
+}h2{
+    color: greenyellow;
+}h3{
+    color: aqua;
+}h5{
+    color: aquamarine;
+}#result{
+    margin-left: 20px;
+}#navbar{
+    width: 100%;
+    background-color: blue;
+}#navbar img{
+    width: 80px;
+    height: 80px;
+}h1{
+    color: coral;
+}

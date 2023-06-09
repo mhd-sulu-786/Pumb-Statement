@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sree-Pretrolim</title>
+    <link rel="shortcut icon" href="img/Pumb/198-1989212_1-hp-petrol-pump-logo.png" type="image/x-icon">
+</head>
+
+<body >
+    <link rel="stylesheet" href="style.css">
+    <link rel="maths/js" href="maths.js">
+    <div id="navbar">
+       <h1>  <img src="img/Pumb/HINDPETRO.NS-6dfea446.png" alt="">SreePretrolim</h1>
+       
+     
+    </div>
+    <div id="home">
+<h1>STATEMENT</h1>
+<div id="firstreeding">
+    <h2>OLD REEDING</h2>
+    <input style="background-color: yellow;" id="oil1"type="text" placeholder="2T(Oil Blance)"><br>
+    <div class="petrol">
+    <input id="pp1" type="number" placeholder="POWER REEDING"><br>
+    <input id="p11" type="number"  placeholder="PETROL REEDING"><br>
+    <input id="p12" type="number"  placeholder="PETROL REEDING"><br>
+    <input id="p13" type="number"  placeholder="PETROL REEDING"><br>
+   
+</div> <div class="diesl">
+    <input id="d11"  type="number" placeholder="DISEL REEDING"><br>
+    <input id="d12"  type="number"  placeholder="DISEL REEDING"><br>
+    <input id="d13"  type="number" placeholder="DISEL REEDING"><br>
+    <input id="d14"  type="number" placeholder="DISEL REEDING"><br>
+    </div>
+ 
+
+</div>
+<div id="secondreeding">
+    
+    <h2>NEW REEDING</h2>
+    <input  style="background-color: yellow;" id="oil2" type="text"  placeholder="2T(Oil Blance)"><br>
+    <div class="petrol">
+    <input id="pp2" type="number"  placeholder="POWER REEDING"><br>
+    <input id="p21" type="number"  placeholder="PETROL REEDING"><br>
+    <input id="p22" type="number" placeholder="PETROL REEDING"><br>
+    <input id="p23" type="number" placeholder="PETROL REEDING"><br>
+ 
+</div>
+<div class="diesl">
+    <input id="d21"  type="number"  placeholder="DISEL REEDING"><br>
+    <input id="d22" type="number"  placeholder="DISEL REEDING"><br>
+    <input id="d23"  type="number"  placeholder="DISEL REEDING"><br>
+    <input id="d24" type="number"  placeholder="DISEL REEDING"><br>
+   
+   
+</div></div>
+<button id="submit" onclick="result()"><strong>SUBMIT</strong></button>
+<div id="result">
+    <h3>oil Sale</h3>
+    <h5>Ltr</h5>
+    <input type="none" inputmode="none" id="sale1" 3style="pointer-events: none;" >
+    <h5>Amount</h5>
+    <input type="none" inputmode="none" id="sale2" 3style="pointer-events: none;" >
+   
+    <p ></p><br>
+    <h3>Power Sale</h3>
+    <h5>Ltr</h5>
+    <input type="none" inputmode="none" id="sale3" 3style="pointer-events: none;" >
+    <h5>Amount</h5>
+    <input type="none" inputmode="none" id="sale4" 3style="pointer-events: none;" >
+    <p></p><br>
+    <h3>petrol Sale</h3>
+    <h5>Ltr</h5>
+    <input type="none" inputmode="none" id="sale5" 3style="pointer-events: none;" >
+    <h5>Amount</h5>
+    <input type="none" inputmode="none" id="sale6" 3style="pointer-events: none;" >
+    <p></p><br>
+    <h3>diesl Sale</h3>
+    <h5>Ltr</h5>
+    <input type="none" inputmode="none" id="sale7" 3style="pointer-events: none;" >
+    <h5>Amount</h5>
+    <input type="none" inputmode="none" id="sale8" 3style="pointer-events: none;" >
+    <p></p><br>
+</div> </div>
+<h6 style="margin: 30%;color: rgb(237, 253, 17);">Disenig by @mhd_sulu_786</h6>
+    
+<script>
+    function result(){
+        let num1= document.getElementById("oil1").value
+        let num2=document.getElementById("oil2").value
+
+        let oil=num1-num2
+        let oiltext=oil*300
+        
+document.getElementById("sale1").value=oil
+document.getElementById("sale2").value=oiltext
+
+
+
+
+
+
+        let num3=document.getElementById("pp1").value
+
+
+        let num11=document.getElementById("pp2").value
+
+
+        let num4=document.getElementById("p21").value-document.getElementById("p11").value
+        let num5=document.getElementById("p22").value-document.getElementById("p12").value
+        let num6= document.getElementById("p23").value-document.getElementById("p13").value
+
+
+
+       
+        
+      
+
+
+
+
+let power=num11-num3
+let poweramout=power*115.88
+
+document.getElementById("sale3").value=power
+document.getElementById("sale4").value=poweramout
+
+let petrol=num4+num5+num6
+
+let petrolamout=petrol*108.98
+
+document.getElementById("sale5").value=petrol
+document.getElementById("sale6").value=petrolamout
+
+
+
+
+
+
+        
+        let num15=document.getElementById("d21").value-document.getElementById("d11").value
+        let num16=document.getElementById("d22").value-document.getElementById("d12").value
+        let num17=document.getElementById("d23").value-document.getElementById("d13").value
+        let num18=document.getElementById("d24").value-document.getElementById("d14").value
+
+
+
+
+        let disel=num15+num16+num17+num18
+    
+ 
+        let diselamount=disel*97.87
+        document.getElementById("sale7").value=disel
+document.getElementById("sale8").value=diselamount
+   
+}
+</script>
+</body>
+</html>
