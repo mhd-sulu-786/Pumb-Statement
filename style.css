@@ -14,9 +14,9 @@
     background-color: rgb(19, 16, 185);
     color: rgb(238, 28, 28);
 
-}#firstreeding{
+}#firstreeding , #Caculate {
     margin-left: 20px;
-}#firstreeding input{
+}#firstreeding input , #Caculate input{
     margin-top: 10px;
 }#secondreeding{
     margin-left: 20px;
@@ -55,4 +55,7 @@
     height: 80px;
 }h1{
     color: coral;
+}
+.result input{
+    pointer-events: none;
 }
