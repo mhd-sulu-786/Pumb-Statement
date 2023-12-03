@@ -5,7 +5,7 @@ function result(){
     let num2=document.getElementById("oil2").value
 
     let oil=num1-num2
-    let oiltext=oil*300
+    let oiltext=oil*320
     
 document.getElementById("sale1").value=oil
 document.getElementById("sale2").value=oiltext
@@ -42,7 +42,7 @@ document.getElementById("sale4").value=poweramout
 
 let petrol=num4+num5+num6
 
-let petrolamout=petrol*108.98
+let petrolamout=petrol*108.99
 
 document.getElementById("sale5").value=petrol
 document.getElementById("sale6").value=petrolamout
@@ -64,7 +64,7 @@ document.getElementById("sale6").value=petrolamout
     let disel=num15+num16+num17+num18
 
 
-    let diselamount=disel*97.87
+    let diselamount=disel*97.88
     document.getElementById("sale7").value=disel
 document.getElementById("sale8").value=diselamount
 }

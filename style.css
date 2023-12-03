@@ -1,61 +1,155 @@
-.petrol input{
+body {
+    margin: 0%;
+}
+
+.petrol input {
     background-color: blue;
     color: white;
     border-color: black;
-   
-}.diesl input{
+
+}
+
+.diesl input {
     background-color: red;
     color: white;
     border-color: black;
-}.petrol input :placeholder-shown{
+}
+
+.petrol input :placeholder-shown {
     color: white;
     background-color: aliceblue;
-}#submit{
+}
+
+#submit {
     background-color: rgb(19, 16, 185);
     color: rgb(238, 28, 28);
 
-}#firstreeding , #Caculate {
+}
+
+#firstreeding,
+#Caculate {
     margin-left: 20px;
-}#firstreeding input , #Caculate input{
+}
+
+#firstreeding input,
+#Caculate input {
     margin-top: 10px;
-}#secondreeding{
+}
+
+#secondreeding {
     margin-left: 20px;
 
-  
-}#secondreeding input{
+
+}
+
+#secondreeding input {
     margin-top: 10px;
-}#submit{
-  
+}
+
+#submit {
+
     width: 70px;
     height: 40px;
     margin-top: 25px;
     margin-left: 70px;
-}a{
+}
+
+a {
     margin-left: 70%;
     color: rgb(0, 255, 162);
-}body{
+}
+
+body {
     margin: 0%;
     padding: 0%;
     width: 100%;
     background-image: url("img/Pumb/bb.jpg");
-   
-}h2{
+
+}
+
+h2 {
     color: greenyellow;
-}h3{
+}
+
+h3 {
     color: aqua;
-}h5{
+}
+
+h5 {
     color: aquamarine;
-}#result{
+}
+
+#result {
     margin-left: 20px;
-}#navbar{
+}
+
+#navbar {
     width: 100%;
     background-color: blue;
-}#navbar img{
+
+    margin-top: -20px;
+}
+
+#navbar img {
     width: 80px;
     height: 80px;
-}h1{
-    color: coral;
 }
-.result input{
+
+h1 {
+    color: rgb(18, 227, 36)
+}
+
+#result input,
+#Total-cash,
+#rs,
+form input {
     pointer-events: none;
+}
+
+form {
+    background-color: rgb(20, 134, 65);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+form input {
+    background-color: aqua;
+    color: black;
+}
+
+form h3 {
+    color: black;
+    font-size: large;
+    font-weight: 700;
+
+}
+
+form label {
+    color: rgb(190, 26, 26);
+    font-size: x-large;
+    font-weight: 800;
+    margin-top: 12px;
+
+}
+
+#send {
+    background-color: brown;
+    margin: 5px;
+    width: 90px;
+}
+
+#head {
+    margin-left: 30px;
+}
+.rate{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    width: 180px;
 }
