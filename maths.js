@@ -64,7 +64,7 @@ document.getElementById("sale6").value=petrolamout
     let disel=num15+num16+num17+num18
 
 
-    let diselamount=disel*97.88
+    let diselamount=disel*97.84
     document.getElementById("sale7").value=disel
 document.getElementById("sale8").value=diselamount
 }
