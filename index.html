@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>vahid Fuels</title>
+    <title>Cheerakuzhi Fuels</title>
     <link rel="shortcut icon" href="img/Pumb/198-1989212_1-hp-petrol-pump-logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -13,7 +13,7 @@
 <body>
 
     <div id="navbar">
-        <h1> <img src="img/Pumb/HINDPETRO.NS-6dfea446.png" alt="">Vahid Mon Fuels</h1>
+        <h1> <img src="img/Pumb/HINDPETRO.NS-6dfea446.png" alt="">Cheerakuzhi Fuels</h1>
 
 
     </div>
@@ -22,7 +22,8 @@
             <h1 style="color: red;">STATEMENT</h1>
             <div class="rate">
                 <label for="">Petrol Rate:108.99</label>
-                <label for="">Disel Rate:97.84</label>
+                <label for="">Power Rate:115.64</label>
+                <label for="">Disel Rate:97.88</label>
                 <label for="">2T-Oil Rate:320</label>
             </div>
         </center>
@@ -30,128 +31,128 @@
             <h2>OLD REEDING</h2>
             <input style="background-color: yellow;" id="oil1" type="text" placeholder="2T(Oil Blance)"><br>
             <div class="petrol">
-                <input id="pp1" type="number" placeholder="POWER REEDING"><br>
+                <div style="display: none;"><input id="pp1" type="number" placeholder="POWER REEDING"><br></div>
                 <input id="p11" type="number" placeholder="PETROL REEDING"><br>
                 <input id="p12" type="number" placeholder="PETROL REEDING"><br>
                 <input id="p13" type="number" placeholder="PETROL REEDING"><br>
-</div>
-<div class="diesl">
-    <input id="d11" type="number" placeholder="DISEL REEDING"><br>
-    <input id="d12" type="number" placeholder="DISEL REEDING"><br>
-    <input id="d13" type="number" placeholder="DISEL REEDING"><br>
-    <input id="d14" type="number" placeholder="DISEL REEDING"><br>
-</div>
+            </div>
+            <div class="diesl">
+                <input id="d11" type="number" placeholder="DISEL REEDING"><br>
+                <input id="d12" type="number" placeholder="DISEL REEDING"><br>
+                <input id="d13" type="number" placeholder="DISEL REEDING"><br>
+                <input id="d14" type="number" placeholder="DISEL REEDING"><br>
+            </div>
 
 
-</div>
-<div id="secondreeding">
+        </div>
+        <div id="secondreeding">
 
-    <h2>NEW REEDING</h2>
-    <input style="background-color: yellow;" id="oil2" type="text" placeholder="2T(Oil Blance)"><br>
-    <div class="petrol">
-        <input id="pp2" type="number" placeholder="POWER REEDING"><br>
-        <input id="p21" type="number" placeholder="PETROL REEDING"><br>
-        <input id="p22" type="number" placeholder="PETROL REEDING"><br>
-        <input id="p23" type="number" placeholder="PETROL REEDING"><br>
+            <h2>NEW REEDING</h2>
+            <input style="background-color: yellow;" id="oil2" type="text" placeholder="2T(Oil Blance)"><br>
+            <div class="petrol">
+                <div style="display: none;"><input id="pp2" type="number" placeholder="POWER REEDING"><br></div>
+                <input id="p21" type="number" placeholder="PETROL REEDING"><br>
+                <input id="p22" type="number" placeholder="PETROL REEDING"><br>
+                <input id="p23" type="number" placeholder="PETROL REEDING"><br>
 
+            </div>
+            <div class="diesl">
+                <input id="d21" type="number" placeholder="DISEL REEDING"><br>
+                <input id="d22" type="number" placeholder="DISEL REEDING"><br>
+                <input id="d23" type="number" placeholder="DISEL REEDING"><br>
+                <input id="d24" type="number" placeholder="DISEL REEDING"><br>
+
+
+            </div>
+        </div>
+        <button id="submit" onclick="result()"><strong>SUBMIT</strong></button>
+        <div id="result">
+            <h3>oil Sale</h3>
+            <h5>Ltr</h5>
+            <input type="none" inputmode="none" id="sale1">
+            <h5>Amount</h5>
+            <input type="none" inputmode="none" id="sale2">
+
+            <p></p><br>
+           <div style="display: none;"><h3>Power Sale</h3>
+            <h5>Ltr</h5>
+            <input type="none" inputmode="none" id="sale3">
+            <h5>Amount</h5>
+            <input type="none" inputmode="none" id="sale4">
+            <p></p><br></div> 
+            <h3>petrol Sale</h3>
+            <h5>Ltr</h5>
+            <input type="none" inputmode="none" id="sale5">
+            <h5>Amount</h5>
+            <input type="none" inputmode="none" id="sale6">
+            <p></p><br>
+            <h3>diesl Sale</h3>
+            <h5>Ltr</h5>
+            <input type="none" inputmode="none" id="sale7">
+            <h5>Amount</h5>
+            <input type="none" inputmode="none" id="sale8">
+            <div>
+                <h3>Total(Sale) Amount</h3>
+                <input type="none" inputmode="none" id="Total-sale-Amout">
+            </div>
+            <p></p><br>
+        </div>
+        <div id="Caculate">
+            <h2>Go to caculate</h2>
+
+            <div class="petrol">
+                <input id="UPI" type="number"  placeholder="Google pay"><br>
+                <input id="card" type="number" placeholder="Card"><br>
+                <input id="cash" type="number" placeholder="Cash(realcash)"><br>
+                <input id="credit" type="number" placeholder="credit"><br>
+
+                <button id="submit" onclick="caculate()"><strong>Caculate</strong></button>
+
+                <div>
+                    <h3>Total (cash)Amount</h3>
+                    <input type="none" inputmode="none" id="Total-cash">
+                </div>
+            </div>
+
+
+        </div>
     </div>
-    <div class="diesl">
-        <input id="d21" type="number" placeholder="DISEL REEDING"><br>
-        <input id="d22" type="number" placeholder="DISEL REEDING"><br>
-        <input id="d23" type="number" placeholder="DISEL REEDING"><br>
-        <input id="d24" type="number" placeholder="DISEL REEDING"><br>
-
-
-    </div>
-</div>
-<button id="submit" onclick="result()"><strong>SUBMIT</strong></button>
-<div id="result">
-    <h3>oil Sale</h3>
-    <h5>Ltr</h5>
-    <input type="none" inputmode="none" id="sale1">
-    <h5>Amount</h5>
-    <input type="none" inputmode="none" id="sale2">
-
-    <p></p><br>
-    <h3>Power Sale</h3>
-    <h5>Ltr</h5>
-    <input type="none" inputmode="none" id="sale3">
-    <h5>Amount</h5>
-    <input type="none" inputmode="none" id="sale4">
-    <p></p><br>
-    <h3>petrol Sale</h3>
-    <h5>Ltr</h5>
-    <input type="none" inputmode="none" id="sale5">
-    <h5>Amount</h5>
-    <input type="none" inputmode="none" id="sale6">
-    <p></p><br>
-    <h3>diesl Sale</h3>
-    <h5>Ltr</h5>
-    <input type="none" inputmode="none" id="sale7">
-    <h5>Amount</h5>
-    <input type="none" inputmode="none" id="sale8">
     <div>
-        <h3>Total(Sale) Amount</h3>
-        <input type="none" inputmode="none" id="Total-sale-Amout">
-    </div>
-    <p></p><br>
-</div>
-<div id="Caculate">
-    <h2>Go to caculate</h2>
+        <h1>
+            <h1 id="head">Result Amout</h1>
 
-    <div class="petrol">
-        <input id="pp2" type="number" placeholder="Google pay"><br>
-        <input id="p21" type="number" placeholder="Card"><br>
-        <input id="p22" type="number" placeholder="Cash(realcash)"><br>
-        <input id="p23" type="number" placeholder="credit"><br>
-
-        <button id="submit"><strong>Caculate</strong></button>
-
-        <div>
-            <h3>Total (cash)Amount</h3>
-            <input type="none" inputmode="none" id="Total-cash">
-        </div>
-    </div>
-
-
-</div>
-</div>
-<div>
-    <h1>
-        <h1 id="head">Result Amout</h1>
-
-    </h1>
-    <form action="" >
-        <div class="form-group">
-            <center><label for="exampleInputEmail1">Petrol</label></center>
-            <h3>Ltr</h3>
-            <input type="number" name="Petrol-ltr" placeholder="Liter sale">
-            <h3>Amount</h3>
-            <input   type="number"  name="Petrol-amount" placeholder="Sale Amount">
-        </div>
-        <div class="form-group">
-            <center><label for="exampleInputPassword1">DISEL</label></center>
-            <h3>Ltr</h3>
-            <input  type="number" name="disel-ltr" placeholder="Liter sale">
-            <h3>Amount</h3>
-            <input  type="number" name="disel-amount" placeholder="Sale Amount">
-        </div>
-        <div class="form-group">
-            <center><label for="exampleInputEmail1">2T-Oil</label></center>
-            <h3>Ltr</h3>
-            <input  type="number" name="oil-ltr" placeholder="Liter sale">
-            <h3>Amount</h3>
-            <input   type="number" name="Oil-amount" placeholder="Sale Amount">
-        </div>
-        <div class="form-group">
-            <center><label for="exampleInputPassword1">Caculation</label></center>
-            <h3>Total seeing Amount</h3>
-            <input  type="number" name="Total-seeing-amount" placeholder="Amount">
-            <h3>Total Amount</h3>
-            <input  type="number" name="Total-amount" placeholder="Amount">
-            <h3>balance</h3>
-            <input  type="number" name="Balance-amount" placeholder="Amount">
-        </div>
+        </h1>
+        <form action="">
+            <div class="form-group">
+                <center><label for="exampleInputEmail1">Petrol</label></center>
+                <h3>Ltr</h3>
+                <input type="number" name="Petrol-ltr" id="Petrol-ltr" placeholder="Liter sale">
+                <h3>Amount</h3>
+                <input type="number" name="Petrol-amount" id="Petrol-amount" placeholder="Sale Amount">
+            </div>
+            <div class="form-group">
+                <center><label for="exampleInputPassword1">DISEL</label></center>
+                <h3>Ltr</h3>
+                <input type="number" name="disel-ltr" id="disel-ltr" placeholder="Liter sale">
+                <h3>Amount</h3>
+                <input type="number" name="disel-amount" id="disel-amount" placeholder="Sale Amount">
+            </div>
+            <div class="form-group">
+                <center><label for="exampleInputEmail1">2T-Oil</label></center>
+                <h3>Ltr</h3>
+                <input type="number" name="oil-ltr" id="oil-ltr" placeholder="Liter sale">
+                <h3>Amount</h3>
+                <input type="number" name="Oil-amount" id="Oil-amount"  placeholder="Sale Amount">
+            </div>
+            <div class="form-group">
+                <center><label for="exampleInputPassword1">Caculation</label></center>
+                <h3>Total seeing Amount</h3>
+                <input type="number" name="Total-seeing-amount" id="Total-seeing-amount" placeholder="Amount">
+                <h3>Total Amount</h3>
+                <input type="number" name="Total-amount" id="Total-amount" placeholder="Amount">
+                <h3>balance</h3>
+                <input type="number" name="Balance-amount" id="Balance-amount" placeholder="Amount">
+            </div>
 
 
             <center><button type="submit" id="send" name="submit" class="btn btn-primary">Submit</button></center>
